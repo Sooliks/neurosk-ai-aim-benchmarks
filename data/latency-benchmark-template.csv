@@ -1,0 +1,1 @@
+run_id,date_utc,neurosk_version,model_revision,windows_version,windows_build,gpu,nvidia_driver,capture_source,sample_count,capture_to_inference_ms,inference_ms,postprocess_ms,decision_to_output_ms,capture_to_output_ms,clock_method,notes,evidence_path

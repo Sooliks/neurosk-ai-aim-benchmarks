@@ -1,0 +1,6 @@
+id,title,status,primary_file,data_file,last_updated
+R-001,Mouse output compatibility,published,docs/mouse-output-methods.md,data/mouse-output-methods.csv,2026-08-29
+R-002,GPU / inference performance,methodology_ready,benchmarks/gpu-performance.md,data/gpu-benchmark-template.csv,2026-08-29
+R-003,End-to-end latency,methodology_ready,benchmarks/end-to-end-latency.md,data/latency-benchmark-template.csv,2026-08-29
+R-004,RTX 50-series validation,reference_scaffold,docs/rtx-50-series.md,data/gpu-benchmark-template.csv,2026-08-29
+R-005,Benchmark reproducibility,published,docs/reproducibility.md,,2026-08-29

@@ -1,0 +1,47 @@
+name: Benchmark report
+description: Submit a reproducible NeuroSK benchmark or compatibility observation
+title: "[Benchmark]: "
+labels: ["benchmark"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include enough environment information for another person to reproduce the observation. Do not include license keys, private source code, credentials, or personal data.
+
+  - type: input
+    id: neurosk_version
+    attributes:
+      label: NeuroSK version
+      placeholder: e.g. 5.x
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version / build
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU and driver
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Methodology
+      description: Describe warm-up, sample count, capture source, runtime and what exactly was measured.
+    validations:
+      required: true
+
+  - type: textarea
+    id: results
+    attributes:
+      label: Results and raw evidence
+      description: Include measured values and links/attachments to raw evidence where possible.
+    validations:
+      required: true

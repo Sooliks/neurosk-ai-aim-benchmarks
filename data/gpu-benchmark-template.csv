@@ -1,0 +1,1 @@
+run_id,date_utc,neurosk_version,model_revision,input_width,input_height,windows_version,windows_build,gpu,gpu_vram_gb,nvidia_driver,cpu,ram_gb,runtime,precision,warmup_seconds,sample_count,inference_median_ms,inference_p95_ms,throughput_fps,vram_peak_mb,notes,evidence_path

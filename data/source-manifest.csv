@@ -1,0 +1,5 @@
+source_id,subject,url,last_verified,notes
+SRC-001,English mouse output reference,https://neurosk.pro/en/mouse-drivers,2026-08-29,Canonical public source for the 10-method compatibility snapshot
+SRC-002,Russian mouse output reference,https://neurosk.pro/mouse-drivers,2026-08-29,Russian-language canonical reference
+SRC-003,English browser AI demo,https://neurosk.pro/en/test-ai,2026-08-29,Public browser inference demo
+SRC-004,Official English website,https://neurosk.pro/en,2026-08-29,Product overview and current public positioning

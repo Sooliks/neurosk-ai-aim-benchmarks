@@ -1,0 +1,11 @@
+method,class,basic,advanced,windows,hardware_required,status,secure_boot_note,canonical_reference,last_verified
+Logitech GHub,software_vendor_interface,true,true,Windows 10 / Windows 11,false,supported,,https://neurosk.pro/en/mouse-drivers,2026-08-29
+No name driver,software_driver,true,true,Windows 10,false,supported,Windows 10 only; public docs require Secure Boot disabled for this method,https://neurosk.pro/en/mouse-drivers,2026-08-29
+Interception,software_driver,false,true,Windows 10 / Windows 11,false,supported,May require Secure Boot disabled,https://neurosk.pro/en/mouse-drivers,2026-08-29
+TT Driver,software_driver,false,true,Windows 10 / Windows 11*,false,recommended,Some Windows 11 systems may require Secure Boot disabled,https://neurosk.pro/en/mouse-drivers,2026-08-29
+Windows Input,os_input,false,true,Windows 10 / Windows 11,false,fallback,,https://neurosk.pro/en/mouse-drivers,2026-08-29
+NeuroSK HID,virtual_hid,false,true,Windows 10 / Windows 11 x64,false,beta,First-time setup may require Secure Boot disabled and Windows Test Mode,https://neurosk.pro/en/mouse-drivers,2026-08-29
+FakerInput,virtual_hid,false,true,Windows 10 / Windows 11 x64,false,beta,,https://neurosk.pro/en/mouse-drivers,2026-08-29
+Razer Synapse (RZCONTROL),vendor_interface,false,true,Windows 10 / Windows 11,false,beta,,https://neurosk.pro/en/mouse-drivers,2026-08-29
+MAKCU (USB HID),hardware_usb_hid,false,true,Windows 10 / Windows 11 x64,true,beta_mvp,,https://neurosk.pro/en/mouse-drivers,2026-08-29
+CH9329 USB HID,hardware_usb_hid,false,true,Windows 10 / Windows 11 x64,true,beta_mvp,,https://neurosk.pro/en/mouse-drivers,2026-08-29

@@ -1,0 +1,34 @@
+{
+  "title": "NeuroSK Research & Benchmarks",
+  "description": "First-party technical reference data, compatibility notes, and reproducible benchmark methodology for NeuroSK AI Aim Assist.",
+  "creators": [
+    {
+      "name": "NeuroSK Project"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "NeuroSK",
+    "AI aim assist",
+    "computer vision",
+    "benchmark",
+    "TensorRT",
+    "Windows",
+    "HID",
+    "RTX 50 series"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://neurosk.pro/en",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://neurosk.pro/en/mouse-drivers",
+      "relation": "documents",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "dataset",
+  "access_right": "open"
+}

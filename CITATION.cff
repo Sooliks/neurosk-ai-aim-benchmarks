@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use NeuroSK technical reference data or benchmark methodology, please cite this repository."
+title: "NeuroSK Research & Benchmarks"
+type: dataset
+authors:
+  - name: "NeuroSK Project"
+    website: "https://neurosk.pro/en"
+version: 1.0.0
+date-released: 2026-08-29
+url: "https://neurosk.pro/en"
+keywords:
+  - NeuroSK
+  - AI aim assist
+  - computer vision
+  - benchmark
+  - TensorRT
+  - Windows
+  - HID
+  - RTX 50 series
+license: MIT
