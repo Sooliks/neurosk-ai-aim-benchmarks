@@ -1,8 +1,8 @@
 # Contributing
 
-Thanks for helping improve the NeuroSK technical reference dataset.
+Thanks for helping improve the NeuroSK techniсal reference dataset.
 
-## Compatibility corrections
+## Compatibility corrections 
 
 For a compatibility correction, include:
 
