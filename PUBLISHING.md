@@ -1,35 +1,47 @@
 # Publishing this repository
 
-## 1. Create the GitHub repository
+## Current publication state
 
-Recommended repository name:
+The public repository is live at:
 
-`neurosk-ai-aim-benchmarks`
+`https://github.com/Sooliks/neurosk-ai-aim-benchmarks`
 
-Recommended visibility:
+Zenodo integration is enabled and release `v1.0.1` is published with the permanent version DOI:
 
-`Public`
+`10.5281/zenodo.22151633`
 
-Recommended description:
+DOI resolver:
 
-`Technical reference data, compatibility notes and reproducible benchmarks for NeuroSK AI Aim Assist.`
+`https://doi.org/10.5281/zenodo.22151633`
 
-Do not initialize it with a README if you plan to upload this repository as-is.
+## GitHub citation
 
-## 2. Push the files
+`CITATION.cff` contains the current release version, DOI, and repository URL. GitHub can expose these values through **Cite this repository**.
+
+## Publishing the next research snapshot
+
+1. Update the research data, documentation, and source manifest.
+2. Run the repository validator:
 
 ```bash
-git init
-git add .
-git commit -m "Initial NeuroSK research reference"
-git branch -M main
-git remote add origin https://github.com/YOUR_ACCOUNT/neurosk-ai-aim-benchmarks.git
-git push -u origin main
+python scripts/validate_repository.py
 ```
 
-## 3. Add GitHub topics
+3. Commit and push the changes to `main`.
+4. Create a new GitHub release/tag such as `v1.0.2`.
+5. Keep the release as a normal published release, not a draft or pre-release unless that is intentional.
+6. Zenodo will archive the new GitHub release and mint a DOI for that exact snapshot.
+7. Update `README.md` and `CITATION.cff` to reference the newly minted version DOI.
 
-Recommended topics:
+## DOI policy
+
+The DOI currently stored in the repository is the **version DOI for `v1.0.1`**. Do not copy that DOI into `.zenodo.json` as if it identified future releases. Each future Zenodo archive receives its own version DOI.
+
+If Zenodo exposes a separate concept DOI representing all versions of this repository, it can be added later as the preferred citation for the evolving project while keeping version DOIs for reproducible snapshot citations.
+
+## Repository topics
+
+Recommended GitHub topics:
 
 - `neurosk`
 - `computer-vision`
@@ -39,29 +51,3 @@ Recommended topics:
 - `hid`
 - `rtx-50-series`
 - `ai-aim-assist`
-
-## 4. Verify citation metadata
-
-After the first push, GitHub should recognize `CITATION.cff`. The repository page can then expose **Cite this repository**.
-
-## 5. Create the first release
-
-Suggested first tag:
-
-`v1.0.0`
-
-Suggested title:
-
-`NeuroSK Research Snapshot 2026-08-29`
-
-The release should describe what is measured versus what is methodology-only.
-
-## 6. Optional: mint a DOI with Zenodo
-
-1. Sign in to Zenodo using GitHub.
-2. Enable the public repository in the Zenodo GitHub integration.
-3. Publish a GitHub release.
-4. Zenodo archives the release and can mint a DOI.
-5. Add the DOI badge and DOI value back to the README/CITATION metadata in the next commit.
-
-This creates a persistent citation target even if individual website pages change later.

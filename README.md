@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://neurosk.pro/en"><img alt="Official website" src="https://img.shields.io/badge/Official-neurosk.pro-111827?style=flat-square"></a>
+  <a href="https://doi.org/10.5281/zenodo.22151633"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.22151633.svg"></a>
   <a href="CITATION.cff"><img alt="Citation metadata" src="https://img.shields.io/badge/Citation-CFF-0ea5e9?style=flat-square"></a>
   <a href="data/mouse-output-methods.csv"><img alt="Mouse output methods" src="https://img.shields.io/badge/Mouse%20output-10%20methods-22d3ee?style=flat-square"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/Code-MIT-e5e7eb?style=flat-square"></a>
@@ -85,13 +86,17 @@ If a product capability changes, update the public NeuroSK page first, then upda
 
 ## How to cite
 
-GitHub can render citation metadata from [`CITATION.cff`](CITATION.cff). Use the **“Cite this repository”** action in the repository sidebar after publishing it.
+Release `v1.0.1` is permanently archived by Zenodo.
+
+- **Version DOI:** [`10.5281/zenodo.22151633`](https://doi.org/10.5281/zenodo.22151633)
+- **GitHub repository:** https://github.com/Sooliks/neurosk-ai-aim-benchmarks
+- **Citation metadata:** [`CITATION.cff`](CITATION.cff)
+
+GitHub can render the repository citation from `CITATION.cff` through **“Cite this repository”**. For references that must resolve to the exact archived `v1.0.1` snapshot, use the Zenodo DOI.
 
 Suggested plain-text citation:
 
-> NeuroSK Project. *NeuroSK Research & Benchmarks: technical reference data and reproducible benchmark methodology*. 2026. https://neurosk.pro/en
-
-For stronger persistent citation, connect this public repository to **Zenodo** and create a GitHub release. Zenodo can archive the release and mint a DOI. Metadata for that flow is prepared in [`.zenodo.json`](.zenodo.json).
+> NeuroSK Project. *NeuroSK Research & Benchmarks: technical reference data and reproducible benchmark methodology*. Version 1.0.1. Zenodo, 2026. https://doi.org/10.5281/zenodo.22151633
 
 ## Contributing benchmark evidence
 
@@ -128,6 +133,7 @@ This repository documents public NeuroSK behavior and benchmark methodology. Com
 
 <p align="center">
   <a href="https://neurosk.pro/en">NeuroSK</a> ·
+  <a href="https://doi.org/10.5281/zenodo.22151633">Zenodo DOI</a> ·
   <a href="https://neurosk.pro/en/mouse-drivers">Mouse output reference</a> ·
   <a href="https://neurosk.pro/en/test-ai">Browser AI demo</a>
 </p>

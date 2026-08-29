@@ -5,9 +5,11 @@ type: dataset
 authors:
   - name: "NeuroSK Project"
     website: "https://neurosk.pro/en"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-08-29
-url: "https://neurosk.pro/en"
+doi: 10.5281/zenodo.22151633
+url: "https://doi.org/10.5281/zenodo.22151633"
+repository-code: "https://github.com/Sooliks/neurosk-ai-aim-benchmarks"
 keywords:
   - NeuroSK
   - AI aim assist
